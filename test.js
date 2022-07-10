@@ -1,11 +1,7 @@
-const myObj = {
-  name: "민수",
-  grade: "freshman",
+function searchInGooleForASkyFullOfStars() {
+  var searchTerm = "sky full of stars";
+  var url = `https://www.google.com/search?q=${searchTerm}`;
+  window.location.href = url;
 }
 
-const newObj = { ...myObj }
-
-newObj.gender = "male";
-newObj.grade = "sophomore";
-
-console.log(newObj);
+console.log(searchInGooleForASkyFullOfStars());
